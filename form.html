@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS IN HTML</title>
+    </head>
+    <body>
+        
+        <form>
+            <fieldset>
+                <legend><h1>personal detail form</h1></legend>
+            <label>Enter name</label>
+            <input type ="text" name="name"><br><br>
+            <label>Enter passwword</label>
+            <input type="password" name="pwd"><br><br>
+            <label>Enter emailid</label>
+            <input type="email" name="emailid"><br><br>
+            <label>Enter birthdate</label>
+            <input type="date" name="birth"><br><br>
+            <label>gender</label>
+            <input type="radio" name="gender" value="female">female
+                <input type="radio" name="gender" value="male"> male<br><br>
+                <label>select hobby</label><br>
+                <input type="checkbox" name="hobbies" value="football">football<br>
+                <input type="checkbox" name="hobbies" value="volley_ball">volley ball<br>
+                <input type="checkbox" name="hobbies" value="basketball">basket ball<br><br>
+                
+                <label>Select City:</label>
+                <select name="city" id="city">
+                    <option value="mumbai1">mumbai1</option>
+                    <option value="mumbai2">mumbai2 </option>
+                    <option value="mumbai3">mumbai3 </option>
+                </select>              
+                 <input type="submit" value="submit">
+            </fieldset>
+            
+        </form>
+        <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value)">
+            <label>Enter two numbers to add</label><br>
+            <input type="number" id="a" name="a">
+            <input type="number" id="b" name="b">
+            <input type="number" id="c" name="c">
+            Sum: <output name="x" for="a b c"></output>
+        </form>
+        <br><br><br>
+    </body>
+</html>
