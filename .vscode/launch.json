@@ -7,8 +7,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open link_table_list.html",
-            "file": "c:\\Users\\wafee\\OneDrive\\Documents\\CodingalAI\\link_table_list.html"
+            "name": "Open container.html",
+            "file": "c:\\Users\\wafee\\OneDrive\\Documents\\CodingalAI\\container in boot\\container.html"
         }
     ]
 }
